@@ -1,0 +1,120 @@
+/*media*/
+
+@media screen and (max-width: 768px){
+  .cabecalho-nav{
+    position: absolute;
+    flex-direction:column ;
+    top:0;
+    background-color: var(--color-blue1);
+    height: 100%;
+    width: 35vw;
+    padding: 1em;
+    animation-duration:1s;
+    margin-left: -100vw;
+  }
+
+  .btn-nav{
+    display: block;
+  }
+
+  #logo{
+
+    width: 35px;
+    height: 35px;
+  }
+  
+  #cabecalho-logo-text{
+    display: none;
+  }
+
+  .fnd-blue-left-1-text-admin{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  }
+ @keyframes showSidebar {
+    /*animação, partindo de -100 até -10*/
+    from{margin-left: -100vw;}
+    top{margin-left: -10vw;}
+ }
+
+ @media screen and (max-width: 1156px){
+  #logo{
+    padding-right: 3px;
+  }
+
+  #cabecalho-logo-text{
+    display: none;
+  }
+
+
+  .fnd-blue-left-1-text{
+    font-size: 100px;
+    line-height: 80px;
+  }
+
+  #img-ao-lado{
+    width: 100px;
+    height: 100px;
+    right: 60px;
+  }
+
+  #text-box-itens{
+    font-size: 115%;
+    text-align: center;
+  }
+ }
+  
+
+ @media screen and (max-width: 588px){
+  .fnd-blue-left-1-text{
+    font-size: 60px;
+    line-height:50px;
+  }
+
+  #img-ao-lado{
+    width: 80px;
+    height: 80px;
+    right: 17px;
+  }
+
+  #text-box-itens{
+    width: 80%;
+    padding: 0px 10px 0 10px;
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 310px){
+  .fnd-blue-left-1-text{
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  #img-ao-lado{
+    width: 60px;
+    height: 60px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 208px){
+  .fnd-blue-left-1-text{
+    font-size: 80%;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  #img-ao-lado{
+    display: none;
+  }
+
+  #text-box-itens{
+    width: 80%;
+    height: auto;
+    padding: 0px 10px 0 10px;
+    font-size: 80%;
+  }
+
+}
