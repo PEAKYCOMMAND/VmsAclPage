@@ -34,7 +34,6 @@
 
   }
  @keyframes showSidebar {
-    /*animação, partindo de -100 até -10*/
     from{margin-left: -100vw;}
     top{margin-left: -10vw;}
  }
@@ -72,7 +71,9 @@
     font-size: 60px;
     line-height:50px;
   }
-
+  .cabecalho{
+    height: 4em;
+  }
   #img-ao-lado{
     width: 80px;
     height: 80px;

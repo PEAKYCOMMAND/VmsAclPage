@@ -7,7 +7,6 @@
 }
 
 *{
-/* aplica para todos os elementos */
   margin: 0;
   padding: 0;
 }
@@ -45,18 +44,14 @@ body{
 
 .cabecalho{
   background-color: var(--color-blue1);
-  /*esse box shadow adiciona uma sombra abaixo*/
   box-shadow: 1px 1px 4px var(--color-blue2);
-  /* 1 em equivale a 16px*/
   height: 7em;
   justify-content: space-between;
-  /*significa 0 para o top e para o botom e 10% para left e rigth*/
   padding: 0 10%;
 }
 
 .cabecalho-nav{
   gap:3em;
-  /*isso serve para ajustar camadas, então isso está na camada 2*/
   z-index: 2;
 }
 
@@ -68,8 +63,9 @@ body{
 }
 
 a:hover{
-  opacity: 70%;
-  transition: 1s ;
+  opacity: 80%;
+  color: beige;
+  transition: 0.5s ;
 }
 
 .active{

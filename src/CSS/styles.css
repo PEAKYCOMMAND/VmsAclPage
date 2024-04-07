@@ -1,12 +1,28 @@
-/*main*/
+/* variaveis de cores */
+:root{
+--color-white: #fff;
+--color-blue1: #0B1C38;
+--color-blue2: #1B4185;
+--league-spartan: "League Spartan";
+}
 
+/*main*/
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
 
 .secao-1{
   padding-top: 100px;
   display: flex;
   flex-direction: column;
-  min-height:87vh;
-  background-color: var(--color-blue1);
+  height:100vh;
+  background-image: url(../img/fundo.jpg);
+  background-position: bottom, right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 
@@ -15,7 +31,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 70px;
   font-size: 150px;
   line-height: 180px;
 }
@@ -42,16 +58,15 @@
 #text-box-1{
   display: flex;
   justify-content: center;
-  
-  
 }
 #text-box-itens{
   padding: 50px;
-  background-color: var(--color-blue2);
+  background-color: var(--color-blue2) opacity(50%);
   width: 450px;
   height: 150px;
   font-size: 1.5rem;
   font-weight: 400;
+  border-radius: 6px;
 }
 
 #text-box-itens :nth-last-child(2){
@@ -60,4 +75,28 @@
 }
 
 
+
+/*secao 2*/
+.secao-2{
+  color: black;
+  font-family: --league-spartan;
+  min-height: 95vh;
+  
+}
+
+#secao-2-admin{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 95vh;
+ 
+}
+#sobre-secao-2{
+  padding-top: 40px;
+  padding-left:100px
+}
+
+#secao-2-title-abaixo-2{
+  max-width: 17em;
+}
 
