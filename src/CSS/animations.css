@@ -1,0 +1,14 @@
+.hidden{
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1 cubic-bezier(0.39, 0.575, 0.565, 1);
+  transform: translatex(100%);
+}
+
+
+.show{
+  filter: blur(0px);
+  opacity: 1;
+  transition: all 2s;
+  transform: translatex(0%);
+}
