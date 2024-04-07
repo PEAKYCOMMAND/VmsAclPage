@@ -1,0 +1,89 @@
+:root{
+/* variaveis de cores */
+  --color-white: #fff;
+  --color-blue1: #0B1C38;
+  --color-blue2: #1B4185;
+  --league-spartan: "League Spartan";
+}
+
+*{
+/* aplica para todos os elementos */
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ font-family: var(--league-spartan) ;
+ font-weight: 500;
+ background-color: var(--color-white);
+ color: var(--color-white);
+
+}
+
+
+.cabecalho, .cabecalho-nav{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.cabecalho-logo{
+  display: flex;
+  align-items: center;
+}
+#logo{
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#cabecalho-logo-text{
+  text-align: center;
+  
+}
+
+.cabecalho{
+  background-color: var(--color-blue1);
+  /*esse box shadow adiciona uma sombra abaixo*/
+  box-shadow: 1px 1px 4px var(--color-blue2);
+  /* 1 em equivale a 16px*/
+  height: 7em;
+  justify-content: space-between;
+  /*significa 0 para o top e para o botom e 10% para left e rigth*/
+  padding: 0 10%;
+}
+
+.cabecalho-nav{
+  gap:3em;
+  /*isso serve para ajustar camadas, então isso está na camada 2*/
+  z-index: 2;
+}
+
+.cabecalho-nav, a{
+  text-decoration: none;
+  color:var(--color-white);
+  font-size: 20px;
+
+}
+
+a:hover{
+  opacity: 70%;
+  transition: 1s ;
+}
+
+.active{
+  background-color:#0B1C38;
+  border-radius: 10px;
+  padding:10px;
+}
+
+
+.btn-nav{
+ display:none;
+ background-color: transparent;
+ color: var(--color-white);
+ border: none;
+ cursor: pointer;
+}
+

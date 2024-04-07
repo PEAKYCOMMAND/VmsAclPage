@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu responsivo</title>
+  <script src="/src/JS/menu.js" defer></script>
+  <link rel="stylesheet" href="src/CSS/menu.css">
+  <link rel="stylesheet" href="src/CSS/styles.css">
+  <link rel="stylesheet" href="src/CSS/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Cabeçalho-->
+
+  <header class="cabecalho" id="cabecalho">
+    <button onclick="mostrarNav()" class="btn-nav">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+      </svg>
+    </button>
+
+    <div class="cabecalho-logo">
+      <img id="logo" src="src/img/iconedefinitivo.png" alt="text">
+      <div id="cabecalho-logo-text">
+        <h1>VAMOS ACELERAR</h1>
+
+      </div>
+    </div>
+
+    <div class="cabecalho-nav">
+
+      <button onclick="mostrarNav()" class="btn-nav">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x"
+          viewBox="0 0 16 16">
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+        </svg>
+      </button>
+      <a class="btn-nav-itens" href="#">SOBRE NÓS</a>
+      <a class="btn-nav-itens" href="#">PORTIFÓLIO</a>
+      <a class="btn-nav-itens" href="#">PREÇOS</a>
+    </div>
+  </header>
+
+  <!-- Main-->
+  <!-- Como a div não é algo clicável, então tabindex=0  -->
+  <main tabindex="0" onclick="fecharBar()" class="conteudo" id="conteudo">
+    <section class="secao-1">
+      <div id="fnd-blue1-left-1">
+        <div class="fnd-blue-left-1-text-admin">
+
+          <div>
+            <h1 class="fnd-blue-left-1-text">VAMOS</h1>
+            <h1 class="fnd-blue-left-1-text">ACELERAR.</h1>
+          </div>
+
+          <div class="img-ao-lado-admin-1">
+            <div class="img-ao-lado-position">
+              <img id="img-ao-lado" src="src/img/iconedefinitivo.png">
+            </div>
+          </div>
+
+        </div>
+
+        <div id="text-box-1">
+
+          <div id="text-box-itens">
+            <p>SOLUÇÕES PARA IMPULSIONAR SEU NEGÓCIO</p>
+            <p>(TEXTO PROVISÓRIO FAZENDO UMA INTRODUÇÃO DO TRABALHO DA AGÊNCIA)</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
