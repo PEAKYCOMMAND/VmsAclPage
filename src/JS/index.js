@@ -3,7 +3,7 @@ const hidden = document.querySelector('.hidden')
 const show = document.querySelector('.show')
 
 
-const minhaObservacao = new IntersectionObserver((entradas) =>{
+const observation= new IntersectionObserver((entradas) =>{
   entradas.forEach((entry) =>{
     if(entry.isIntersecting){
       entry.target.classList.add('show')
@@ -17,4 +17,4 @@ const minhaObservacao = new IntersectionObserver((entradas) =>{
 
 const itemsAnimation = document.querySelectorAll('.hidden');
 
-itemsAnimation.forEach((element) => minhaObservacao.observe(element));
+itemsAnimation.forEach((element) => observation.observe(element));
