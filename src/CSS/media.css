@@ -1,7 +1,7 @@
 /*media*/
-@media (max-width: 786px){
-  body {
-  overflow-x: hidden;
+@media (max-width: 1000px){
+  body, html {
+  overflow-x: hidden!important;
   }
   }
 
