@@ -101,7 +101,7 @@
 }
 #sobre-secao-2{
   padding-top: 40px;
-  padding-left:100px;
+  padding-left:100px; 
   font-weight: bold;
   color: var(--color-blue2);
   font-family: var(--league-spartan);
@@ -144,6 +144,7 @@
   padding-bottom: 20px;
   color: var(--color-blue2);
 }
+/* abaixo */
 #secao-2-title-abaixo-1{
   font-size: 40px;
   max-width: 300px;
