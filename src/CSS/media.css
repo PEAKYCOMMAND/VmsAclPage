@@ -119,3 +119,10 @@
   }
 
 }
+
+@media screen and (max-width: 500px) {
+
+  .primeiro .segundo .terceiro {
+    margin: 1rem;
+  }
+}
