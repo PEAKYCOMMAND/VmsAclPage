@@ -103,7 +103,7 @@
   padding-top: 40px;
   padding-left:100px; 
   font-weight: bold;
-  color: var(--color-blue2);
+  color: var(--color-blue1);
   font-family: var(--league-spartan);
   font-size: 25px;
 }
@@ -113,7 +113,7 @@
   top: 0px;
   left: 0px;
   width: 300px;
-  height: 300px;
+  height: 200px;
   background-color: #1b428542;
   border: 50px solid #1b428560;
   border-radius: 0px 50px 0px 200px;
@@ -133,16 +133,14 @@
   filter: blur(700px);
 
 }
-#secao-2-ld-dir-responsive{
-  display:none;
-}
+
 
 .secao-2-title-principal{
   font-size: 120px;
   font-family: var(--league-spartan);
   font-weight: 400;
   padding-bottom: 20px;
-  color: var(--color-blue2);
+  color: var(--color-blue1);
 }
 /* abaixo */
 #secao-2-title-abaixo-1{
@@ -153,14 +151,19 @@
   color: var(--color-blue2);
 }
 
+#secao-2-ld-dir-responsive{
+  display:none;
+}
+
+
 #secao-2-title-abaixo-2{
   padding-top: 20px;
   max-width: 15em;
   font-size: 25px;
   padding-bottom: 40px;
   font-family: var(--league-spartan);
-  font-weight: 350;
-  color: var(--color-blue2);
+  font-weight: 400;
+  color: var(--color-blue1);
 }
 
 .secao-2-btn-portf{
