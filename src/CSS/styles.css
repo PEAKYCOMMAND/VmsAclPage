@@ -22,7 +22,6 @@
   background-position: bottom, right;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 0px 0px 0px 50px;
   
 }
 
@@ -134,9 +133,11 @@
   filter: blur(700px);
 
 }
+#secao-2-ld-dir-responsive{
+  display:none;
+}
 
-
-.secão-2-title-principal{
+.secao-2-title-principal{
   font-size: 120px;
   font-family: var(--league-spartan);
   font-weight: 400;
