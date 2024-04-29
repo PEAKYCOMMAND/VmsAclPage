@@ -57,10 +57,7 @@
 
  @media screen and (max-width: 1156px){
 
-  #secao-2-title-abaixo-1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+  
 
   #logo{
     padding-right: 3px;
@@ -158,13 +155,38 @@
 #secao-2-title{
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
   
    
   }
 
+  .secao-2-ld-dir-itens{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .secao-2-ld-dir-itens h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .secao-2-ld-dir-itens p{
+    font-size: 20px;
+    text-align: center;
+  }
+
 }
 @media screen and (max-width: 430px){
+
+  .secao-2{
+    position: relative;
+  }
+
+  .secao-2 #sobre-secao-2{
+    position: absolute;
+    left: 30px;
+  }
+
  /* me chamo */
   #secao-2-title .secao-2-title-principal {
     font-size: 55px;
@@ -203,8 +225,6 @@
 
 
 
-
-
 @media screen and (max-width: 310px){
   .fnd-blue-left-1-text{
     font-size: 40px;
@@ -217,6 +237,10 @@
     right: 0px;
   }
 
+  .secao-2 #sobre-secao-2{
+    position: absolute;
+    left: -40px;
+  }
 
 
   #secao-2-title-abaixo-1{
